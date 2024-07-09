@@ -1,0 +1,318 @@
+
+
+.container{
+    flex-direction: column;
+    margin-top: 50px;
+   
+}
+/*sonradan fixed ekledim yani sabit kalmasını sağladım aşağıdaki kodlar ekstra yazmış olabilir. */
+k{
+ 
+  top: 200px;
+  left: 10px;
+
+}
+
+.üst{
+  display : flex;
+  position: fixed;
+ 
+  
+
+justify-content: space-between;
+
+top: 0px;
+width: 1511px;
+background-color: white;
+}
+h4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  text-align: left;
+  margin-left: 1%;
+  margin-top: 2%;
+  margin-bottom: 0%;
+}
+.sağ .kanal1 h4 a{
+  text-decoration: none;
+ 
+}
+.sağ .kanal1 h4 a:hover{
+  text-decoration: underline;
+}
+.üst1 h2{
+  margin-top: 8%;
+
+}
+.sol h3{
+  text-align: left;
+  margin-left: 7%;
+}
+.üst2 #ara{
+  height: 20%;
+ 
+  margin-top: 14px;
+}
+h2{
+  margin-left: 70%;
+  
+}
+hr{
+  width: 40%;
+  float: left;
+
+}
+.sağ2{
+    width: 45%;
+  float: right;
+}
+
+#ara{
+    width: 300px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 20px; 
+}
+
+  .üst .üst3 .buttons{
+    margin-top: 14px;
+  }
+
+  .button {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    height: 100%;
+    margin-top: 5%;
+  }
+body{
+  margin:0;
+  padding: 0;
+}
+
+.orta{
+    display: flex;
+    
+}
+/*sonradan fixed eklendi fixed ekleyip sağ tarafada margin left %15 verildi çünkü sol tarafın width si 15% */
+
+.sol{
+    width: 15%;
+  position: fixed;
+  top: 9%;
+  height: 100%;
+
+    background-color: rgb(245, 239, 239);
+}
+.sağ{
+  margin-left: 15%;
+    width: 85%;
+
+    background-color: color(xyz 0.89 0.93 1.02);
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    align-items: center;
+    gap: 16px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  .gallery .kutular{
+    display: flex;
+
+    
+  }
+  .gallery .kutular a:hover{
+  
+   box-shadow: 10px 10px 115px 15px lightblue;
+  }
+  .gallery .kutular .yazı{
+  
+    background-color: rgb(248, 248, 248);
+    
+  }
+  .üst .üst1 a h2{
+  
+    width: 5%;
+    
+    
+    font-size: x-large;
+
+  }
+  
+  .üst .üst1 a{
+    text-decoration: none;
+    color: black;
+   
+  }
+  .üst .üst1 a:hover{
+      background-color: purple;
+  }
+  #kayıt-ol{
+    background-color: rgb(48, 93, 131);
+    color: white;
+  }
+  #kayıt-ol:hover{
+    background-color: gray;
+  }
+  #kayıt-ol:active{
+    background-color: green;
+  }
+  #oturum-aç{
+    color: black;
+    font-weight: bold;
+
+  }
+  #oturum-aç:hover{
+    background-color: gray;
+  }
+  #oturum-aç:active{
+    background-color: green;
+  }
+  
+  .kanal2 a h5{
+    font-size: larger;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    margin-left: 1%;
+    
+  }
+  .kanal2 a {
+    
+   text-decoration: none;  
+  }
+  .kanal2 a:hover{
+    text-decoration: underline;
+  }
+  .daha{
+    text-decoration: none;
+    color: rgb(181, 64, 187);
+  
+    
+  }
+
+  .sol-kullanıcısı{
+    display: flex;
+    justify-content: space-between;
+   
+  }
+
+  .sol-kullanıcısı{
+    text-decoration: none;
+    color: black;
+    
+  }
+  .sol-kullanıcısı:hover{
+    background-color: gray;
+    color: yellow;
+  }
+  .daha:hover{
+    background-color: rgb(172, 169, 169);
+  }
+  .gallery .kutular .yazı img{
+    width: 100%;
+    max-width: 95%;
+  
+    border: 3px solid rgb(42, 163, 228);
+  border-radius: 10px;
+  }
+ 
+ 
+
+  ul{
+    list-style-type: none;
+    padding: 0 10px;
+  }
+  footer{
+    
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(18, 18, 129);
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    bottom: 0px;
+    color: white;
+  }
+  footer h8{
+    display: flex;
+    justify-content: space-between;
+   margin-top: 10px;
+   margin-left: 20px;
+  }
+  footer h8 button{
+    border: 1px solid #ccc;
+    color: black;
+    font-weight: 500;
+    padding: 5px 9px;
+    border-radius: 7px;
+    margin-right: 35px;
+    
+  }
+  footer h8 button:hover{
+    background-color: yellow;
+  }
+
+
+
+  @media (max-width: 768px) {
+    .üst {
+         height: 10%;
+         width: 100%;
+        
+     }
+    .container,.sağ,.kanal1,.gallery,.kutular {
+      display: flex;
+      flex-direction: row; 
+      flex-wrap : wrap;
+        
+     }
+     .container .orta .sol{
+      width: 0;
+     }
+     .container .orta .sol .sol-kullanıcısı{
+      width: 0px;
+      height: 0px;
+      margin-left: -1100px;
+     }
+     .container .orta .sol .sol-kullanıcısı .sol2,.sol3, .sol1{
+      width: 0%;
+      height: 0%;
+      margin-left: -1100px;
+     }
+     .container{
+      
+      max-width: 100%;
+     }
+ }
+ @media (max-width: 1268px) {
+  .üst {
+       height: 10%;
+       width: 100%;
+      
+   }
+  .container,.sağ,.kanal1,.gallery,.kutular {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap : wrap;
+
+      
+   }
+   footer{
+    height: auto;
+    
+   }
+   .container .orta .sol{
+    
+    max-width:  0%;
+   }
+}
+ 
+
+ 
