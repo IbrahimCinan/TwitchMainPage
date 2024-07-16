@@ -8,7 +8,7 @@
 /*sonradan fixed ekledim yani sabit kalmasını sağladım aşağıdaki kodlar ekstra yazmış olabilir. */
 k{
  
-  top: 200px;
+  top: 100px;
   left: 10px;
 
 }
@@ -25,6 +25,7 @@ top: 0px;
 width: 1511px;
 background-color: white;
 }
+
 h4{
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
@@ -41,9 +42,17 @@ h4{
   text-decoration: underline;
 }
 .üst1 h2{
-  margin-top: 8%;
+  margin-top: 0%;
+  
 
 }
+.üst1{
+  display: flex;
+ 
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
 .sol h3{
   text-align: left;
   margin-left: 7%;
@@ -53,17 +62,14 @@ h4{
  
   margin-top: 14px;
 }
-h2{
-  margin-left: 70%;
-  
-}
+
 hr{
   width: 40%;
   float: left;
 
 }
 .sağ2{
-    width: 45%;
+    width: 35%;
   float: right;
 }
 
@@ -137,14 +143,7 @@ body{
     background-color: rgb(248, 248, 248);
     
   }
-  .üst .üst1 a h2{
-  
-    width: 5%;
-    
-    
-    font-size: x-large;
 
-  }
   
   .üst .üst1 a{
     text-decoration: none;
@@ -259,18 +258,24 @@ body{
     background-color: yellow;
   }
 
+  
 
-
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
+    
     .üst {
          height: 10%;
          width: 100%;
+         display: flex;
+    
+         justify-content: space-between;
         
      }
+  
     .container,.sağ,.kanal1,.gallery,.kutular {
       display: flex;
       flex-direction: row; 
       flex-wrap : wrap;
+   
         
      }
      .container .orta .sol{
@@ -289,18 +294,49 @@ body{
      .container{
       
       max-width: 100%;
+     
      }
+   
+     .üst2{
+      margin: unset;
+      display: unset;
+      max-width: 1px;
+      height: 1px;
+     }
+ 
+     .sağ2{
+      width: 30%;
+     }
+     hr{
+      width: 30%;
+     }
+     
  }
+
  @media (max-width: 1268px) {
   .üst {
        height: 10%;
        width: 100%;
+       display: flex;
+       justify-content: space-between;
+    
       
+      
+   }
+  
+   .üst2{
+    margin: unset;
+    display: unset;
+    max-width: min-content;
+    height: 1%;
+    margin-left: -10%;
    }
   .container,.sağ,.kanal1,.gallery,.kutular {
     display: flex;
     flex-direction: row; 
     flex-wrap : wrap;
+    justify-content: center;
+  
 
       
    }
@@ -311,6 +347,12 @@ body{
    .container .orta .sol{
     
     max-width:  0%;
+   }
+   .sağ2{
+    width: 30%;
+   }
+   hr{
+    width: 30%;
    }
 }
  
