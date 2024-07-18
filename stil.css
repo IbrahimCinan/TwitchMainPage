@@ -134,9 +134,16 @@ body{
 
     
   }
-  .gallery .kutular a:hover{
+  .gallery .kutular  :hover{
   
-   box-shadow: 10px 10px 115px 15px lightblue;
+    
+  
+   transition: 0.3s;
+
+  }
+  .gallery .kutular img:hover{
+    box-shadow: -4px 4px #6803ff;
+    transform: translate(3px,-2px);
   }
   .gallery .kutular .yazı{
   
@@ -154,11 +161,11 @@ body{
       background-color: purple;
   }
   #kayıt-ol{
-    background-color: rgb(48, 93, 131);
+    background-color: #9147ff;
     color: white;
   }
   #kayıt-ol:hover{
-    background-color: gray;
+    background-color: rgb(211, 66, 66);
   }
   #kayıt-ol:active{
     background-color: green;
@@ -166,6 +173,7 @@ body{
   #oturum-aç{
     color: black;
     font-weight: bold;
+    background-color: rgb(173, 173, 184,0.22);
 
   }
   #oturum-aç:hover{
